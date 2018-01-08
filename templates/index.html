@@ -17,9 +17,9 @@
 
 	<header class="c-header c-header--transparent">
 		<h1 class="c-h1">Beside the park</h1>
-		<nav class="c-nav">
-			<form class="c-nav__form" id="form">
-				<input class="c-nav__input" placeholder="search" value=""></div>
+		<nav class="c-header__nav c-nav">
+			<form class="c-nav__form" id="form"> 
+				<input class="c-nav__input" placeholder="search..." value="">
 			</form>
 			<img src="../static/img/Web_0001_Search.png" class="o-nav__img" id="search">
 			<img src="../static/img/Web_0000_Menu.png" class="o-nav__img" id="menu">
@@ -43,12 +43,12 @@
 				<h2 class="c-h2">Lorem impsum</h2>
 				<p class="c-home__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
-
 		</section>
 
 <!-- ABOUT SECTION -->
 
-		<section class="c-about o-section" id="about">
+		<section class="c-about o-section" >
+			<a class=o-section__anchor id="about"></a>
 			<h3 class="c-h3">Lorem impsum</h3>	
 			<div class="c-about__container">
 				<div class="o-about__item o-about__item--first">
@@ -65,27 +65,30 @@
 
 <!-- DETAILS SECTION -->
 
-		<section class="c-details o-section" id="details">
-			<div class="c-details__container">
-				<div class="o-details__item o-details__item--firstRow o-details__item--big c-details__item--grey">
+		<section class="c-details o-details o-section">
+			<a class=o-section__anchor id="details"></a>
+			<div class="o-details__row">
+				<div class="o-details__item o-details__item--big o-detailsBox o-detailsBox--firstRow o-detailsBox--grey">
 					<h4 class="o-h4">Built to last</h4>
-					<p class="o-details__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
-					<p class="o-details__link o-details__link--firstRow">Find Out More</p>
+					<p class="o-detailsBox__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+					<p class="o-details__link o-details__link--firstRow o-detailsBox__link ">Find Out More</p>
 				</div>
-				<div class="o-details__item o-details__item--firstRow o-details__item--small c-details__item--darkGreen">
+				<div class="o-details__item o-details__item--small o-detailsBox  o-detailsBox--firstRow o-detailsBox--darkGreen">
 					<h4 class="o-h4">Our clients</h4>
-					<p class="o-details__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-					<p class="o-details__link o-details__link--firstRow">Get insights</p>
+					<p class="o-detailsBox__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+					<p class="o-details__link o-details__link--firstRow o-detailsBox__link">Get insights</p>
 				</div>
-				<div class="o-details__item o-details__item--secondRow o-details__item--big c-details__item--blue">
+			</div>
+			<div class="o-details__row">
+				<div class="o-details__item o-details__item--big o-detailsBox o-detailsBox--secondRow  o-detailsBox--blue">
 					<h4 class="o-h4">Sign up & see why</h4>
-					<p class="o-details__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
-					<p class="o-details__link o-details__link--secondRow">Get started now</p>
+					<p class="o-detailsBox__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+					<p class="o-details__link o-details__link--secondRow o-detailsBox__link ">Get started now</p>
 				</div>
-				<div class="o-details__item o-details__item--secondRow o-details__item--small c-details__item--green">
+				<div class="o-details__item o-details__item--small o-detailsBox  o-detailsBox--secondRow  o-detailsBox--green">
 					<h4 class="o-h4">Perfect pictures</h4>
-					<p class="o-details__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
-					<p class="o-details__link o-details__link--secondRow">Find Out More</p>
+					<p class="o-detailsBox__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+					<p class="o-details__link o-details__link--secondRow o-detailsBox__link ">Find Out More</p>
 				</div>
 			</div>
 		</section>
